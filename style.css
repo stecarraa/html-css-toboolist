@@ -38,10 +38,49 @@ header h1{
 
 .secondbox{
     background-color: white;
-    height: 650px;
+    height: 100%;
     padding-left: 20px;
     margin-top: 2px;
     width: 80%;
     margin-left: 10%;
     padding-top: 15px;
+}
+
+.done:before{
+    line-height: 40px;
+    font-size: 20px;
+   
+
+        content:'\2713';
+        border: 1px solid green;
+        color: green;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%; 
+        padding-right: 3px;
+        padding-left: 3px;
+}
+
+
+.todo:before{
+    line-height: 40px;
+    font-size: 20px;
+    content:'\00d7';
+        border: 1px solid red;
+        color: red;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%; 
+        padding-right: 3px;
+        padding-left: 3px;
+}
+
+
+.title:before{
+    
+        content:'\261F';
+        color: black;
+        width: 15px;
+        height: 15px;
+    
 }
