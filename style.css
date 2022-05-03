@@ -47,8 +47,8 @@ header h1{
 }
 
 .done:before{
-    line-height: 40px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 15px;
    
 
         content:'\2713';
@@ -63,8 +63,8 @@ header h1{
 
 
 .todo:before{
-    line-height: 40px;
-    font-size: 20px;
+    line-height: 30px;
+    font-size: 15px;
     content:'\00d7';
         border: 1px solid red;
         color: red;
@@ -82,5 +82,60 @@ header h1{
         color: black;
         width: 15px;
         height: 15px;
+    
+}
+
+.editorial{
+
+    background-color: lightblue;
+    color: white;
+    border-radius: 10%;
+    font-size: 10px;
+    padding: 1px;
+}
+
+.sales{
+
+    background-color: lightgreen;
+    color: white;
+    border-radius: 10%;
+    font-size: 10px;
+    padding: 1px;
+}
+
+.recruiting{
+
+    background-color: green;
+    color: white;
+    border-radius: 10%;
+    font-size: 10px;
+    padding: 1px;
+}
+
+.q1goals{
+
+    background-color: purple;
+    color: white;
+    border-radius: 10%;
+    font-size: 10px;
+    padding: 1px;
+}
+
+.mobile{
+
+    background-color: orange;
+    color: white;
+    border-radius: 10%;
+    font-size: 10px;
+    padding: 1px;
+}
+
+.websites{
+
+    background-color: lightpink;
+    color: white;
+    border-radius: 10%;
+    font-size: 10px;
+    padding: 1px;
     
 }
