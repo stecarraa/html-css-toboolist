@@ -6,6 +6,7 @@
 
 body{
     background-color: rgb(233, 229, 229);
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -22,8 +23,29 @@ align-items: center;
 header h1{
     display: inline;
     vertical-align: middle;
+    font-size: 40px;
     
 }
+
+#addtask{
+    background-color: rgb(113, 113, 250);
+    color: white;
+    margin-left: 20px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 2px;
+}
+
+#addsection{
+    background-color: white;
+    color: lightgray;
+    margin-left: 10px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 2px;
+
+}
+
 .firstbox{
     background-color: white;
     border-top-left-radius: 10px;
@@ -47,7 +69,7 @@ header h1{
 }
 
 .done:before{
-    line-height: 30px;
+    line-height: 50px;
     font-size: 15px;
    
 
@@ -61,10 +83,12 @@ header h1{
         padding-left: 3px;
 }
 
-
-.todo:before{
+.todo{
     line-height: 30px;
     font-size: 15px;
+}
+.todo:before{
+   
     content:'\00d7';
         border: 1px solid red;
         color: red;
@@ -76,7 +100,12 @@ header h1{
 }
 
 
+.title{
+    font-size: 35px;
+}
 .title:before{
+
+    
     
         content:'\261F';
         color: black;
@@ -91,7 +120,7 @@ header h1{
     color: white;
     border-radius: 10%;
     font-size: 10px;
-    padding: 1px;
+    padding: 3px;
 }
 
 .sales{
@@ -100,7 +129,7 @@ header h1{
     color: white;
     border-radius: 10%;
     font-size: 10px;
-    padding: 1px;
+    padding: 3px;
 }
 
 .recruiting{
@@ -109,7 +138,7 @@ header h1{
     color: white;
     border-radius: 10%;
     font-size: 10px;
-    padding: 1px;
+    padding: 3px;
 }
 
 .q1goals{
@@ -118,7 +147,7 @@ header h1{
     color: white;
     border-radius: 10%;
     font-size: 10px;
-    padding: 1px;
+    padding: 3px;
 }
 
 .mobile{
@@ -127,7 +156,7 @@ header h1{
     color: white;
     border-radius: 10%;
     font-size: 10px;
-    padding: 1px;
+    padding: 3px;
 }
 
 .websites{
@@ -136,6 +165,6 @@ header h1{
     color: white;
     border-radius: 10%;
     font-size: 10px;
-    padding: 1px;
+    padding: 3px;
     
 }
